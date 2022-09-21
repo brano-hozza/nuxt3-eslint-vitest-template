@@ -1,7 +1,8 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 Starting template
 
 Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
 
+This repository has prepared folder structure, [Vitest](https://vitest.dev/) testing and eslint configuration.
 ## Setup
 
 Make sure to install the dependencies:
@@ -22,7 +23,7 @@ pnpm install --shamefully-hoist
 Start the development server on http://localhost:3000
 
 ```bash
-npm run dev
+yarn dev -o
 ```
 
 ## Production
@@ -30,13 +31,21 @@ npm run dev
 Build the application for production:
 
 ```bash
-npm run build
+yarn build
 ```
 
 Locally preview production build:
 
 ```bash
-npm run preview
+yarn preview
 ```
 
 Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
+
+## Testing
+
+All tests should be placed in `tests` directory
+
+```bash
+yarn test:unit 
+```
