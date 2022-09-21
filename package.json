@@ -1,0 +1,19 @@
+{
+  "author": "Branislav Hozza",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "test:unit": "vitest --config ./vitest.config.ts"
+  },
+  "devDependencies": {
+    "@nuxt/test-utils-edge": "^3.0.0-rc.12-27729267.0640a6c",
+    "jsdom": "^20.0.0",
+    "nuxt": "3.0.0-rc.11",
+    "vitest": "^0.23.4"
+  }
+}
